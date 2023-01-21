@@ -1,0 +1,26 @@
+
+.button {
+  .outline {
+    background: transparent;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'GT Cinetype';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }  
+}

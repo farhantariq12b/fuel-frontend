@@ -1,0 +1,58 @@
+.drop-down {
+  label {
+    width: 31px;
+    height: 12px;
+    margin-bottom: 8px;
+    font-family: 'GT Cinetype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+  }
+  select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 50%;
+    gap: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white url('/assets/svg/key-down.svg') no-repeat;
+    background-size: 16px;
+    background-position: calc(100% - 20px) 17px;
+    background-repeat: no-repeat;
+
+    &:hover {
+      cursor: pointer;
+    }
+    &-option {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+      width: 50%;
+      gap: 10px;
+      margin: 20px 0;
+      cursor: pointer;
+      outline: none;
+      background-color: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+  }
+}
